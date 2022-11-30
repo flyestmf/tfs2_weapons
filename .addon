@@ -22,15 +22,6 @@
       {
         "DisplayType": "Boolean",
         "Choices": [],
-        "ConVarName": "weapon_forceanature",
-        "DisplayName": "The Force-A-Nature",
-        "DefaultValue": "true",
-        "Description": "",
-        "Group": ""
-      },
-      {
-        "DisplayType": "Boolean",
-        "Choices": [],
         "ConVarName": "weapon_directhit",
         "DisplayName": "The Direct Hit",
         "DefaultValue": "true",
