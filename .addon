@@ -1,0 +1,51 @@
+{
+  "Title": "TF:S2 Missing Weapons",
+  "Type": "addon",
+  "Org": "flyestmf",
+  "Ident": "tfs2_weapons",
+  "Tags": "weapon",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": null,
+  "Metadata": {
+    "PrimaryAsset": "",
+    "PhysicsMins": "-1,-1,-1",
+    "PhysicsMaxs": "1,1,1",
+    "RenderMins": "-1,-1,-1",
+    "RenderMaxs": "-1,-1,-1",
+    "ParentPackage": "amper.tfs2",
+    "PackageSettings": [
+      {
+        "DisplayType": "Boolean",
+        "Choices": [],
+        "ConVarName": "weapon_forceanature",
+        "DisplayName": "The Force-A-Nature",
+        "DefaultValue": "true",
+        "Description": "",
+        "Group": ""
+      },
+      {
+        "DisplayType": "Boolean",
+        "Choices": [],
+        "ConVarName": "weapon_directhit",
+        "DisplayName": "The Direct Hit",
+        "DefaultValue": "true",
+        "Description": "",
+        "Group": ""
+      }
+    ],
+    "Compiler": {
+      "RootNamespace": "Sandbox",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;"
+    },
+    "Summary": "Missing weapons that are essential to the TF2 experience. One for each class.",
+    "Description": "",
+    "Public": false,
+    "ReplaceTags": "tf2 custom weapon weapons"
+  }
+}
