@@ -2,7 +2,7 @@
 {
 	data = 
 	{
-		Title = "Direct Hit"
+		Title = "The Direct Hit"
 		EngineClass = "tf_weapon_directhit"
 		Hidden = false
 		WorldModel = resource:"models/weapons/c_models/c_directhit/c_directhit.vmdl"
@@ -11,7 +11,8 @@
 			"data/playerclass/soldier.tfclass" = 
 			{
 				Reserve = 20
-				ViewModel = resource:"models/weapons/v_models/v_rocketlauncher_soldier.vmdl"
+				AttachToHands = true
+				ViewModel = resource:"models/weapons/c_models/c_directhit/c_directhit.vmdl"
 			}
 		}
 		Damage = 112
@@ -34,15 +35,15 @@
 		InventoryIcon = resource:"ui/weapons/renders/directhit.png"
 		KillFeedIcon = resource:"ui/deathnotice/direct_hit.png"
 		KillFeedIconSpecial = null
-		Crosshair = resource:"ui/weapons/crosshairs/circle.jpg"
+		Crosshair = resource:"ui/weapons/crosshairs/circle.png"
 		TracerFrequency = 0
 		TracerRed = null
 		TracerBlue = null
 		TracerRedCritical = null
 		TracerBlueCritical = null
 		MuzzleFlash = null
-		SoundSingle = resource:"sounds/weapons/weapon_directhit.single.sound"
-		SoundCrit = resource:"sounds/weapons/weapon_directhit.single.crit.sound"
+		SoundSingle = resource:"sounds/weapons/directhit/weapon_directhit.single.sound"
+		SoundCrit = resource:"sounds/weapons/directhit/weapon_directhit.single.crit.sound"
 		SoundHitWorld = null
 		SoundHitFlesh = null
 	}

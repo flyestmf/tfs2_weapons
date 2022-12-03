@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/base.dll": {}
+        }
+      },
+      "tfs2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/tfs2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tfs2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "base/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/base.csproj",
+      "msbuildProject": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/base.csproj"
+    },
+    "tfs2/1.0.0": {
+      "type": "project",
+      "path": "../../tfs2/code/tfs2.csproj",
+      "msbuildProject": "../../tfs2/code/tfs2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "tfs2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\yourbadandimbest\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj": {
+              "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

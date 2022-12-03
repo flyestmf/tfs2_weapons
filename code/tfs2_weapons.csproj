@@ -45,7 +45,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-		<Reference Include="C:\Program Files (x86)\Steam\steamapps\common\sbox\.source2\references\amper.tfs2.10935.dll" />
+		<ProjectReference Include="C:\Users\yourbadandimbest\Documents\S&amp;box Projects\tfs2\code\tfs2.csproj" />
 
   </ItemGroup>
 

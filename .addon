@@ -17,16 +17,34 @@
     "PhysicsMaxs": "1,1,1",
     "RenderMins": "-1,-1,-1",
     "RenderMaxs": "-1,-1,-1",
-    "ParentPackage": "amper.tfs2",
+    "ParentPackage": "local.tfs2",
     "PackageSettings": [
       {
         "DisplayType": "Boolean",
         "Choices": [],
         "ConVarName": "weapon_directhit",
-        "DisplayName": "The Direct Hit",
+        "DisplayName": "Direct Hit",
         "DefaultValue": "true",
         "Description": "",
-        "Group": ""
+        "Group": "Soldier"
+      },
+      {
+        "DisplayType": "Boolean",
+        "Choices": [],
+        "ConVarName": "weapon_flaregun",
+        "DisplayName": "Flare Gun",
+        "DefaultValue": "true",
+        "Description": "",
+        "Group": "Pyro"
+      },
+      {
+        "DisplayType": "Boolean",
+        "Choices": [],
+        "ConVarName": "weapon_kritzkrieg",
+        "DisplayName": "Kritzkrieg",
+        "DefaultValue": "true",
+        "Description": "",
+        "Group": "Medic"
       }
     ],
     "Compiler": {
@@ -36,7 +54,7 @@
     },
     "Summary": "Missing weapons that are essential to the TF2 experience. One for each class.",
     "Description": "",
-    "Public": false,
+    "Public": true,
     "ReplaceTags": "tf2 custom weapon weapons"
   }
 }

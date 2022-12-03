@@ -11,7 +11,7 @@ partial class RocketDirectHit : Rocket
     {
         // Mini critical airborne.
         // TODO: Only mini critical if airborne from blast force.
-        if (Enemy is TFPlayer && Enemy.GroundEntity == null)
+        if (Enemy is TFPlayer { IsInAir: true })
         {
             DamageFlags |= TFDamageFlags.MiniCritical;
         }

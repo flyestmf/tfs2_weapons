@@ -1,0 +1,50 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	data = 
+	{
+		Title = "The Flare Gun"
+		EngineClass = "tf_weapon_flaregun"
+		Hidden = false
+		WorldModel = resource:"models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.vmdl"
+		Owners = 
+		{
+			"data/playerclass/pyro.tfclass" = 
+			{
+				Slot = "Secondary"
+				AttachToHands = true
+				ViewModel = resource:"models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.vmdl"
+			}
+		}
+		Damage = 30
+		Range = 4096
+		ClipSize = 16
+		BulletsPerShot = 1
+		BulletSpread = 0
+		PunchAngle = 0
+		AmmoPerShot = 1
+		ReloadsEntireClip = true
+		UseFalloff = false
+		FalloffMultiplier = 0
+		UseRampup = false
+		RampupMultiplier = 0
+		DeployTime = 0.5
+		AttackTime = 2
+		ReloadTime = 0
+		ReloadStartTime = 0
+		SmackTime = 0
+		InventoryIcon = resource:"ui/weapons/renders/flaregun.png"
+		KillFeedIcon = resource:"ui/deathnotice/flaregun.png"
+		KillFeedIconSpecial = null
+		Crosshair = resource:"ui/weapons/crosshairs/dot.png"
+		TracerFrequency = 0
+		TracerRed = null
+		TracerBlue = null
+		TracerRedCritical = null
+		TracerBlueCritical = null
+		MuzzleFlash = null
+		SoundSingle = resource:"sounds/weapons/flaregun/weapon_flaregun.single.sound"
+		SoundCrit = resource:"sounds/weapons/flaregun/weapon_flaregun.single.crit.sound"
+		SoundHitWorld = null
+		SoundHitFlesh = null
+	}
+}

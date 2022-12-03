@@ -9,12 +9,12 @@ public class DirectHit : RocketLauncher
     {
         tf_projectile_rocket_speed = 1980;
         
-        // This is where I would do base.Attack(), except there is no way to override projectile.
+        //There is no way to override projectile so I have to do it manually.
         if ( !IsServer ) return;
         
         GetProjectileFireSetup( MuzzleOffset, out var origin, out var direction );
         var velocity = direction * tf_projectile_rocket_speed;
-
+        
         FireProjectile<RocketDirectHit>( origin, velocity, Data.Damage );
     }
 }
