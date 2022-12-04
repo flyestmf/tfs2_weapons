@@ -5,7 +5,7 @@
 		Title = "The Direct Hit"
 		EngineClass = "tf_weapon_directhit"
 		Hidden = false
-		WorldModel = resource:"models/weapons/c_models/c_directhit/c_directhit.vmdl"
+		WorldModel = resource:"models/weapons/c_models/c_medigun/c_medic_gun.vmdl"
 		Owners = 
 		{
 			"data/playerclass/soldier.tfclass" = 

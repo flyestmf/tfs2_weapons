@@ -5,14 +5,15 @@
 		Title = "Kritzkrieg"
 		EngineClass = "tf_weapon_kritzkrieg"
 		Hidden = false
-		WorldModel = resource:"models/weapons/c_models/c_medigun/c_medigun.vmdl"
+		WorldModel = resource:"models/weapons/c_models/c_kritzkrieg/c_kritzkrieg.vmdl"
 		Owners = 
 		{
 			"data/playerclass/medic.tfclass" = 
 			{
 				Slot = "Secondary"
 				HoldPose = "Secondary"
-				ViewModel = resource:"models/weapons/v_models/v_medigun_medic.vmdl"
+				AttachToHands = true
+				ViewModel = resource:"models/weapons/c_models/c_kritzkrieg/c_kritzkrieg.vmdl"
 			}
 		}
 		Damage = 24
