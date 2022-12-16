@@ -7,8 +7,8 @@
 "DmElement"
 {
 	"name" "string" "root"
-	"model" "element" "c4143c4b-5eef-4c95-9ecf-87c74ab5c771"
-	"skeleton" "element" "c4143c4b-5eef-4c95-9ecf-87c74ab5c771"
+	"model" "element" "2a2bc4b5-b0a0-43d5-a65e-9b27eb9a1c61"
+	"skeleton" "element" "2a2bc4b5-b0a0-43d5-a65e-9b27eb9a1c61"
 	"makefile" "DmeDCCMakefile"
 	{
 		"name" "string" "makefile"
@@ -16,7 +16,7 @@
 		[
 		]
 	}
-
+	
 	"exportTags" "DmeExportTags"
 	{
 		"name" "string" "exportTags"
@@ -28,7 +28,7 @@
 		"appVersion" "string" ""
 		"vmdl" "string" "models/weapons/c_models/c_directhit/c_directhit.vmdl"
 	}
-
+	
 	"animationList" "DmeAnimationList"
 	{
 		"name" "string" "@idle"
@@ -44,7 +44,7 @@
 					"offset" "time" "0.0000"
 					"scale" "float" "1"
 				}
-
+				
 				"color" "color" "0 0 0 0"
 				"text" "string" ""
 				"mute" "bool" "0"
@@ -60,7 +60,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "d8e2fc82-709a-4aa2-8285-b8ac432526bd"
+						"toElement" "element" "c1b09a87-c5de-4944-a857-83aa2276307b"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -81,7 +81,7 @@
 									]
 									"values" "vector3_array" 
 									[
-										"0.0000002384 -2.2441411018 -2.1093742847"
+										"-0.0000000655 -2.244140625 -2.109375"
 									]
 									"compressed" "binary" 
 									"
@@ -101,7 +101,7 @@
 							[
 							]
 						}
-
+						
 						"channelType" "string" "skeleton"
 					},
 					"DmeChannel"
@@ -110,7 +110,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "d8e2fc82-709a-4aa2-8285-b8ac432526bd"
+						"toElement" "element" "c1b09a87-c5de-4944-a857-83aa2276307b"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -131,7 +131,7 @@
 									]
 									"values" "quaternion_array" 
 									[
-										"0.0000863671 0.0000863075 0.0000863075 -1"
+										"-0.0000863075 -0.0000863294 -0.0000863294 1"
 									]
 									"compressed" "binary" 
 									"
@@ -151,7 +151,7 @@
 							[
 							]
 						}
-
+						
 						"channelType" "string" "skeleton"
 					},
 					"DmeChannel"
@@ -160,7 +160,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "8e1d15ac-7014-401d-8736-efca1f0ffe5b"
+						"toElement" "element" "4f668f27-8f59-4b87-b973-5061b7d3c03f"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -201,7 +201,7 @@
 							[
 							]
 						}
-
+						
 						"channelType" "string" "skeleton"
 					},
 					"DmeChannel"
@@ -210,7 +210,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "8e1d15ac-7014-401d-8736-efca1f0ffe5b"
+						"toElement" "element" "4f668f27-8f59-4b87-b973-5061b7d3c03f"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -231,7 +231,7 @@
 									]
 									"values" "quaternion_array" 
 									[
-										"-0.5000000596 -0.5000000596 -0.5 0.5"
+										"0.5 0.5 0.5 -0.5"
 									]
 									"compressed" "binary" 
 									"
@@ -251,7 +251,7 @@
 							[
 							]
 						}
-
+						
 						"channelType" "string" "skeleton"
 					}
 				]
@@ -261,33 +261,33 @@
 			}
 		]
 	}
-
+	
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "d8e2fc82-709a-4aa2-8285-b8ac432526bd"
-	"position" "vector3" "-0.0000000713 -2.2441403866 -2.1093747616"
-	"orientation" "quaternion" "-0.0000024438 -0.0000024875 -0.0000024279 1"
+	"id" "elementid" "c1b09a87-c5de-4944-a857-83aa2276307b"
+	"position" "vector3" "-0.0000003249 -2.2441401482 -2.1093747616"
+	"orientation" "quaternion" "-0.000002414 -0.0000024358 -0.0000024358 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "8e1d15ac-7014-401d-8736-efca1f0ffe5b"
+	"id" "elementid" "4f668f27-8f59-4b87-b973-5061b7d3c03f"
 	"position" "vector3" "0 0 0"
-	"orientation" "quaternion" "0.5000000596 0.5000000596 0.5 -0.5"
+	"orientation" "quaternion" "0.5 0.5 0.5 -0.5"
 }
 
 "DmeModel"
 {
-	"id" "elementid" "c4143c4b-5eef-4c95-9ecf-87c74ab5c771"
+	"id" "elementid" "2a2bc4b5-b0a0-43d5-a65e-9b27eb9a1c61"
 	"name" "string" "c_directhit"
 	"transform" "DmeTransform"
 	{
 		"position" "vector3" "0 0 0"
 		"orientation" "quaternion" "0 0 0 1"
 	}
-
+	
 	"shape" "element" ""
 	"visible" "bool" "1"
 	"children" "element_array" 
@@ -295,7 +295,7 @@
 		"DmeJoint"
 		{
 			"name" "string" "weapon_bone"
-			"transform" "element" "d8e2fc82-709a-4aa2-8285-b8ac432526bd"
+			"transform" "element" "c1b09a87-c5de-4944-a857-83aa2276307b"
 			"shape" "element" ""
 			"visible" "bool" "1"
 			"children" "element_array" 
@@ -305,7 +305,7 @@
 		"DmeJoint"
 		{
 			"name" "string" "c_directhit_reference"
-			"transform" "element" "8e1d15ac-7014-401d-8736-efca1f0ffe5b"
+			"transform" "element" "4f668f27-8f59-4b87-b973-5061b7d3c03f"
 			"shape" "element" ""
 			"visible" "bool" "1"
 			"children" "element_array" 
@@ -333,6 +333,6 @@
 		"forwardParity" "int" "2"
 		"coordSys" "int" "0"
 	}
-
+	
 }
 

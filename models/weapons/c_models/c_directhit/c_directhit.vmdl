@@ -14,7 +14,7 @@
 						switch_threshold = 0.0
 						meshes = 
 						[
-							"c_directhit_lod0",
+							"c_directhit_bg_c_directhit_reference_lod0",
 						]
 					},
 					{
@@ -22,7 +22,7 @@
 						switch_threshold = 7.0
 						meshes = 
 						[
-							"c_directhit_lod1",
+							"c_directhit_bg_c_directhit_reference_lod1",
 						]
 					},
 					{
@@ -30,7 +30,7 @@
 						switch_threshold = 11.0
 						meshes = 
 						[
-							"c_directhit_lod2",
+							"c_directhit_bg_c_directhit_reference_lod2",
 						]
 					},
 					{
@@ -38,7 +38,7 @@
 						switch_threshold = 16.0
 						meshes = 
 						[
-							"c_directhit_lod3",
+							"c_directhit_bg_c_directhit_reference_lod3",
 						]
 					},
 				]
@@ -65,9 +65,9 @@
 				[
 					{
 						_class = "PhysicsHullFile"
-						name = "c_directhit_mesh"
+						name = "c_directhit_reference_0_mesh"
 						parent_bone = "c_directhit_reference"
-						surface_prop = "metal"
+						surface_prop = "default"
 						collision_tags = "solid"
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
@@ -101,7 +101,7 @@
 						name = "muzzle"
 						parent_bone = "weapon_bone"
 						relative_origin = [ 0.000875, 6.603201, 21.429817 ]
-						relative_angles = [ -89.999992, 0.0, 0.0 ]
+						relative_angles = [ -90.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -110,7 +110,16 @@
 						name = "pedestal_0"
 						parent_bone = "weapon_bone"
 						relative_origin = [ 0.000859, 2.953724, -0.397584 ]
-						relative_angles = [ -89.99958, -90.000267, 0.0 ]
+						relative_angles = [ -89.999603, -90.000282, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "icon_camera"
+						parent_bone = "weapon_bone"
+						relative_origin = [ 38.266022, -5.922373, 31.539955 ]
+						relative_angles = [ 38.798199, 160.846863, 77.722404 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -119,7 +128,7 @@
 						name = "backblast"
 						parent_bone = "weapon_bone"
 						relative_origin = [ 0.0, 6.690001, -40.73 ]
-						relative_angles = [ 89.999992, -0.0, 0.0 ]
+						relative_angles = [ 90.0, -0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -136,7 +145,6 @@
 						[
 							{
 								_class = "Hitbox"
-								name = "0"
 								parent_bone = "weapon_bone"
 								surface_property = "metal"
 								translation_only = false
@@ -154,8 +162,8 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						name = "c_directhit_lod0"
-						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_lod0.fbx"
+						name = "c_directhit_bg_c_directhit_reference_lod0"
+						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_bg_c_directhit_reference_lod0.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -171,8 +179,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_directhit_lod1"
-						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_lod1.fbx"
+						name = "c_directhit_bg_c_directhit_reference_lod1"
+						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_bg_c_directhit_reference_lod1.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -188,8 +196,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_directhit_lod2"
-						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_lod2.fbx"
+						name = "c_directhit_bg_c_directhit_reference_lod2"
+						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_bg_c_directhit_reference_lod2.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -205,8 +213,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_directhit_lod3"
-						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_lod3.fbx"
+						name = "c_directhit_bg_c_directhit_reference_lod3"
+						filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/mesh/c_directhit_bg_c_directhit_reference_lod3.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -221,6 +229,34 @@
 						}
 					},
 				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						take = 0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
 			},
 			{
 				_class = "MaterialGroupList"
@@ -239,48 +275,6 @@
 						global_default_material = ""
 					},
 				]
-			},
-			{
-				_class = "AnimationList"
-				children = 
-				[
-					{
-						_class = "AnimFile"
-						name = "idle"
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/weapons/c_models/c_directhit/c_directhit_fbx/anim/idle.dmx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-				]
-				default_root_bone_name = ""
-			},
-			{
-				_class = "BoneMarkupList"
-				children = 
-				[
-					{
-						_class = "BoneMarkup"
-						target_bone = ""
-						ignore_Translation = false
-						ignore_rotation = false
-						do_not_discard = false
-					},
-				]
-				bone_cull_type = "Aggressive"
 			},
 		]
 		model_archetype = ""

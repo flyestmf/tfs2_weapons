@@ -1,0 +1,366 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"c_bow_bg_body_lod0",
+							"c_bow_bg_arrow_sm0_lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 7.0
+						meshes = 
+						[
+							"c_bow_bg_body_lod1",
+							"c_bow_bg_arrow_sm0_lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 13.0
+						meshes = 
+						[
+							"c_bow_bg_body_lod2",
+							"c_bow_bg_arrow_sm0_lod2",
+						]
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "arrow"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"c_bow_bg_arrow_sm0_lod0",
+									"c_bow_bg_arrow_sm0_lod1",
+									"c_bow_bg_arrow_sm0_lod2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "c_bow_reference"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "c_bow_reference_0_mesh"
+						parent_bone = "c_bow_reference"
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"c_bow_reference_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "weapon_bone_4"
+						relative_origin = [ 0.002704, -0.010077, 33.414097 ]
+						relative_angles = [ -90.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "pedestal_0"
+						parent_bone = "weapon_bone"
+						relative_origin = [ 0.04012, -0.060383, 0.022505 ]
+						relative_angles = [ 3.143353, 95.000526, 91.919853 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "icon_camera"
+						parent_bone = "weapon_bone"
+						relative_origin = [ -19.510752, -30.562523, 38.051266 ]
+						relative_angles = [ 51.186405, 59.247704, -1.433434 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone"
+								surface_property = "default"
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -17.023809, -10.309595, -0.786069 ]
+								hitbox_maxs = [ 12.093554, 1.532236, 0.733419 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone_1"
+								surface_property = "default"
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -19.00823, -8.83311, -1.226386 ]
+								hitbox_maxs = [ 0.109374, 0.412111, 1.226515 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone_2"
+								surface_property = "default"
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -6.653583, -22.224707, -1.20401 ]
+								hitbox_maxs = [ 0.263883, 0.243981, 1.230775 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone_4"
+								surface_property = "default"
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -1.115676, -1.263321, -0.044971 ]
+								hitbox_maxs = [ 1.572363, 1.725946, 35.086475 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "c_bow_bg_body_lod0"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/mesh/c_bow_bg_body_lod0.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "c_bow_bg_arrow_sm0_lod0"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/mesh/c_bow_bg_arrow_sm0_lod0.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "c_bow_bg_body_lod1"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/mesh/c_bow_bg_body_lod1.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "c_bow_bg_arrow_sm0_lod1"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/mesh/c_bow_bg_arrow_sm0_lod1.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "c_bow_bg_body_lod2"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/mesh/c_bow_bg_body_lod2.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "c_bow_bg_arrow_sm0_lod2"
+						filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/mesh/c_bow_bg_arrow_sm0_lod2.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "ref"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/c_models/c_huntsman/c_huntsman_fbx/anim/ref.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						take = 0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/c_items/c_bow.vmat"
+								to = "materials/models/weapons/c_models/c_huntsman/c_huntsman.vmat"
+							},
+							{
+								from = "materials/models/weapons/c_items/c_arrow.vmat"
+								to = "materials/models/weapons/w_models/w_arrow/c_arrow.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

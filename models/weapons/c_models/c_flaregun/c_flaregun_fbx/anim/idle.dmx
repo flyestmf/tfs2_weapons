@@ -7,8 +7,8 @@
 "DmElement"
 {
 	"name" "string" "root"
-	"model" "element" "1ec76544-4592-4412-80c8-01f027977763"
-	"skeleton" "element" "1ec76544-4592-4412-80c8-01f027977763"
+	"model" "element" "f6ffcbf5-ec09-4149-ab6c-32ae793615d0"
+	"skeleton" "element" "f6ffcbf5-ec09-4149-ab6c-32ae793615d0"
 	"makefile" "DmeDCCMakefile"
 	{
 		"name" "string" "makefile"
@@ -26,7 +26,7 @@
 		"machine" "string" ""
 		"app" "string" ""
 		"appVersion" "string" ""
-		"vmdl" "string" "models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.vmdl"
+		"vmdl" "string" "models/weapons/c_models/c_flaregun_pyro/c_flaregun.vmdl"
 	}
 	
 	"animationList" "DmeAnimationList"
@@ -60,7 +60,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "db7fdd30-539d-4376-ac87-7dbd99e4c811"
+						"toElement" "element" "920a3733-7d6e-40f4-b403-bc36dd1d13b3"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -110,7 +110,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "db7fdd30-539d-4376-ac87-7dbd99e4c811"
+						"toElement" "element" "920a3733-7d6e-40f4-b403-bc36dd1d13b3"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -160,7 +160,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "28a3ca30-c438-4a1f-9eea-b7fb64ecdc9b"
+						"toElement" "element" "4969e3a8-1d79-4a61-8426-d9cfc86f8b4b"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -210,7 +210,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "28a3ca30-c438-4a1f-9eea-b7fb64ecdc9b"
+						"toElement" "element" "4969e3a8-1d79-4a61-8426-d9cfc86f8b4b"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -260,7 +260,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "d0dad3e8-2275-4076-a8c3-a37c8dbd730d"
+						"toElement" "element" "de5ff8b8-e549-4797-877f-14865742d945"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -310,7 +310,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "d0dad3e8-2275-4076-a8c3-a37c8dbd730d"
+						"toElement" "element" "de5ff8b8-e549-4797-877f-14865742d945"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -360,7 +360,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "210a8beb-f62c-4719-958d-d9bdc0be3516"
+						"toElement" "element" "25aaece6-5c92-48f4-b41f-4b4d63843d7b"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -410,7 +410,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "210a8beb-f62c-4719-958d-d9bdc0be3516"
+						"toElement" "element" "25aaece6-5c92-48f4-b41f-4b4d63843d7b"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -460,7 +460,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "321cb3e5-8183-4ce1-9800-992cf3ea9562"
+						"toElement" "element" "85314418-a422-426f-ba6f-241694cf5c02"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -510,7 +510,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "321cb3e5-8183-4ce1-9800-992cf3ea9562"
+						"toElement" "element" "85314418-a422-426f-ba6f-241694cf5c02"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -560,7 +560,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "94e74547-1210-4666-940b-71d5649dfda1"
+						"toElement" "element" "9968c436-7860-49aa-981c-73dd1ed2d399"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -610,7 +610,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "94e74547-1210-4666-940b-71d5649dfda1"
+						"toElement" "element" "9968c436-7860-49aa-981c-73dd1ed2d399"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -666,50 +666,50 @@
 
 "DmeTransform"
 {
-	"id" "elementid" "db7fdd30-539d-4376-ac87-7dbd99e4c811"
+	"id" "elementid" "920a3733-7d6e-40f4-b403-bc36dd1d13b3"
 	"position" "vector3" "0 0 0"
 	"orientation" "quaternion" "-0.000002414 -0.0000024358 -0.0000024358 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "28a3ca30-c438-4a1f-9eea-b7fb64ecdc9b"
+	"id" "elementid" "4969e3a8-1d79-4a61-8426-d9cfc86f8b4b"
 	"position" "vector3" "0.0000012512 2.1755487919 8.3244552612"
 	"orientation" "quaternion" "-0.0000459389 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "d0dad3e8-2275-4076-a8c3-a37c8dbd730d"
+	"id" "elementid" "de5ff8b8-e549-4797-877f-14865742d945"
 	"position" "vector3" "-0.0000027038 1.404492259 -24.0944786072"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "210a8beb-f62c-4719-958d-d9bdc0be3516"
+	"id" "elementid" "25aaece6-5c92-48f4-b41f-4b4d63843d7b"
 	"position" "vector3" "0 0 0"
 	"orientation" "quaternion" "0.5 0.5 0.5 -0.5"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "321cb3e5-8183-4ce1-9800-992cf3ea9562"
+	"id" "elementid" "85314418-a422-426f-ba6f-241694cf5c02"
 	"position" "vector3" "0.0000008563 2.1735756397 5.012196064"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "94e74547-1210-4666-940b-71d5649dfda1"
+	"id" "elementid" "9968c436-7860-49aa-981c-73dd1ed2d399"
 	"position" "vector3" "0.0000007635 3.7751131058 2.6317670345"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeModel"
 {
-	"id" "elementid" "1ec76544-4592-4412-80c8-01f027977763"
-	"name" "string" "c_flaregun_pyro"
+	"id" "elementid" "f6ffcbf5-ec09-4149-ab6c-32ae793615d0"
+	"name" "string" "c_flaregun"
 	"transform" "DmeTransform"
 	{
 		"position" "vector3" "0 0 0"
@@ -723,7 +723,7 @@
 		"DmeJoint"
 		{
 			"name" "string" "weapon_bone"
-			"transform" "element" "db7fdd30-539d-4376-ac87-7dbd99e4c811"
+			"transform" "element" "920a3733-7d6e-40f4-b403-bc36dd1d13b3"
 			"shape" "element" ""
 			"visible" "bool" "1"
 			"children" "element_array" 
@@ -731,7 +731,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "weapon_bone_2"
-					"transform" "element" "28a3ca30-c438-4a1f-9eea-b7fb64ecdc9b"
+					"transform" "element" "4969e3a8-1d79-4a61-8426-d9cfc86f8b4b"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -741,7 +741,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "weapon_bone_l"
-					"transform" "element" "d0dad3e8-2275-4076-a8c3-a37c8dbd730d"
+					"transform" "element" "de5ff8b8-e549-4797-877f-14865742d945"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -751,7 +751,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "weapon_bone_3"
-					"transform" "element" "321cb3e5-8183-4ce1-9800-992cf3ea9562"
+					"transform" "element" "85314418-a422-426f-ba6f-241694cf5c02"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -761,7 +761,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "weapon_bone_4"
-					"transform" "element" "94e74547-1210-4666-940b-71d5649dfda1"
+					"transform" "element" "9968c436-7860-49aa-981c-73dd1ed2d399"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -773,7 +773,7 @@
 		"DmeJoint"
 		{
 			"name" "string" "c_flaregun_pyro_reference"
-			"transform" "element" "210a8beb-f62c-4719-958d-d9bdc0be3516"
+			"transform" "element" "25aaece6-5c92-48f4-b41f-4b4d63843d7b"
 			"shape" "element" ""
 			"visible" "bool" "1"
 			"children" "element_array" 

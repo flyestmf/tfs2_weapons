@@ -10,7 +10,6 @@
   "ResourcePaths": null,
   "HasCode": true,
   "CodePath": "/code/",
-  "RootNamespace": null,
   "Metadata": {
     "PrimaryAsset": "",
     "PhysicsMins": "-1,-1,-1",

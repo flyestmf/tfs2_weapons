@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj": {
+    "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj",
+        "projectUniqueName": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj",
         "projectName": "tfs2",
-        "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj",
+        "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj",
         "packagesPath": "C:\\Users\\yourbadandimbest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\obj\\",
+        "outputPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yourbadandimbest\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,8 +142,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj": {
-                "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj"
+              "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj": {
+                "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj"
               }
             }
           }

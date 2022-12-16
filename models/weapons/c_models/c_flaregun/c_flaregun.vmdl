@@ -14,8 +14,8 @@
 						switch_threshold = 0.0
 						meshes = 
 						[
-							"c_flaregun_lod0",
-							"c_flaregun_shell_lod0",
+							"c_flaregun_pyro_bg_body_lod0",
+							"c_flaregun_pyro_bg_shell_sm1_lod0",
 						]
 					},
 					{
@@ -23,8 +23,8 @@
 						switch_threshold = 7.0
 						meshes = 
 						[
-							"c_flaregun_lod1",
-							"c_flaregun_shell_lod1",
+							"c_flaregun_pyro_bg_body_lod1",
+							"c_flaregun_pyro_bg_shell_sm1_lod1",
 						]
 					},
 					{
@@ -32,8 +32,8 @@
 						switch_threshold = 12.0
 						meshes = 
 						[
-							"c_flaregun_lod2",
-							"c_flaregun_shell_lod2",
+							"c_flaregun_pyro_bg_body_lod2",
+							"c_flaregun_pyro_bg_shell_sm1_lod2",
 						]
 					},
 					{
@@ -41,8 +41,8 @@
 						switch_threshold = 20.0
 						meshes = 
 						[
-							"c_flaregun_lod3",
-							"c_flaregun_shell_lod3",
+							"c_flaregun_pyro_bg_body_lod3",
+							"c_flaregun_pyro_bg_shell_sm1_lod3",
 						]
 					},
 				]
@@ -58,22 +58,16 @@
 						[
 							{
 								_class = "BodyGroupChoice"
-								meshes = 
-								[
-									"c_flaregun_lod0",
-									"c_flaregun_lod1",
-									"c_flaregun_lod2",
-									"c_flaregun_lod3",
-								]
+								meshes = [  ]
 							},
 							{
 								_class = "BodyGroupChoice"
 								meshes = 
 								[
-									"c_flaregun_shell_lod0",
-									"c_flaregun_shell_lod1",
-									"c_flaregun_shell_lod2",
-									"c_flaregun_shell_lod3",
+									"c_flaregun_pyro_bg_shell_sm1_lod0",
+									"c_flaregun_pyro_bg_shell_sm1_lod1",
+									"c_flaregun_pyro_bg_shell_sm1_lod2",
+									"c_flaregun_pyro_bg_shell_sm1_lod3",
 								]
 							},
 						]
@@ -87,7 +81,7 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						name = "red"
+						name = "0"
 						remaps = 
 						[
 							{
@@ -96,7 +90,7 @@
 							},
 							{
 								from = "materials/models/weapons/c_items/c_flaregun_shell.vmat"
-								to = "materials/models/weapons/c_models/c_flaregun/c_flaregun_shell.vmat"
+								to = "materials/models/weapons/w_models/w_flare/c_flare.vmat"
 							},
 						]
 						use_global_default = false
@@ -104,7 +98,7 @@
 					},
 					{
 						_class = "MaterialGroup"
-						name = "blue"
+						name = "1"
 						remaps = 
 						[
 							{
@@ -112,8 +106,8 @@
 								to = "materials/models/weapons/c_models/c_flaregun/c_flaregun_blue.vmat"
 							},
 							{
-								from = "materials/models/weapons/c_models/c_flaregun/c_flaregun_shell.vmat"
-								to = "materials/models/weapons/c_models/c_flaregun/c_flaregun_shell_blue.vmat"
+								from = "materials/models/weapons/w_models/w_flare/c_flare.vmat"
+								to = "materials/models/weapons/w_models/w_flare/c_flare_blue.vmat"
 							},
 						]
 					},
@@ -141,7 +135,7 @@
 				[
 					{
 						_class = "PhysicsHullFile"
-						name = "c_flaregun_physics"
+						name = "c_flaregun_pyro_reference_0_mesh"
 						parent_bone = "c_flaregun_pyro_reference"
 						surface_prop = "default"
 						collision_tags = "solid"
@@ -237,195 +231,6 @@
 								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
 								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
 							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.890552, -4.677066, -24.09449 ]
-								hitbox_maxs = [ 1.890552, 6.373912, 9.007604 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_2"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -3.014668, -1.881608, -3.447875 ]
-								hitbox_maxs = [ 3.014668, 7.220898, 11.416941 ]
-							},
-							{
-								_class = "Hitbox"
-								parent_bone = "weapon_bone_l"
-								surface_property = "metal"
-								translation_only = false
-								tags = ""
-								hitbox_mins = [ -1.467369, -1.514246, -2.744091 ]
-								hitbox_maxs = [ 1.467381, 1.420522, 2.829611 ]
-							},
 						]
 					},
 				]
@@ -436,8 +241,8 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_lod0"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_lod0.fbx"
+						name = "c_flaregun_pyro_bg_body_lod0"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_body_lod0.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -453,8 +258,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_lod1"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_lod1.fbx"
+						name = "c_flaregun_pyro_bg_shell_sm1_lod0"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_shell_sm1_lod0.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -470,8 +275,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_lod2"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_lod2.fbx"
+						name = "c_flaregun_pyro_bg_body_lod1"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_body_lod1.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -487,8 +292,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_lod3"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_lod3.fbx"
+						name = "c_flaregun_pyro_bg_shell_sm1_lod1"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_shell_sm1_lod1.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -504,8 +309,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_shell_lod0"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_shell_lod0.fbx"
+						name = "c_flaregun_pyro_bg_body_lod2"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_body_lod2.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -521,8 +326,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_shell_lod1"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_shell_lod1.fbx"
+						name = "c_flaregun_pyro_bg_shell_sm1_lod2"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_shell_sm1_lod2.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -538,8 +343,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_shell_lod2"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_shell_lod2.fbx"
+						name = "c_flaregun_pyro_bg_body_lod3"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_body_lod3.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -555,8 +360,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "c_flaregun_shell_lod3"
-						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_shell_lod3.fbx"
+						name = "c_flaregun_pyro_bg_shell_sm1_lod3"
+						filename = "models/weapons/c_models/c_flaregun/c_flaregun_fbx/mesh/c_flaregun_pyro_bg_shell_sm1_lod3.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -599,20 +404,6 @@
 					},
 				]
 				default_root_bone_name = ""
-			},
-			{
-				_class = "BoneMarkupList"
-				children = 
-				[
-					{
-						_class = "BoneMarkup"
-						target_bone = ""
-						ignore_Translation = false
-						ignore_rotation = false
-						do_not_discard = false
-					},
-				]
-				bone_cull_type = "Aggressive"
 			},
 		]
 		model_archetype = ""

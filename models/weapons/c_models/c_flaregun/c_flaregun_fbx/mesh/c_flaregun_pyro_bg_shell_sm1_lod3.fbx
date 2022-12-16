@@ -1,0 +1,560 @@
+; FBX 7.5.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7500
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2022
+		Month: 12
+		Day: 9
+		Hour: 20
+		Minute: 15
+		Second: 54
+		Millisecond: 25
+	}
+	Creator: "FBX SDK/FBX Plugins version 2016.1.2"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "c:\program files (x86)\steam\steamapps\common\half-life alyx\content\hlvr_addons\weapons\models\weapons\c_models\c_flaregun_pyro\c_flaregun_fbx\mesh\c_flaregun_pyro_bg_shell_sm1_lod3.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "c:\program files (x86)\steam\steamapps\common\half-life alyx\content\hlvr_addons\weapons\models\weapons\c_models\c_flaregun_pyro\c_flaregun_fbx\mesh\c_flaregun_pyro_bg_shell_sm1_lod3.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", ""
+			P: "Original|ApplicationVersion", "KString", "", "", ""
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", ""
+			P: "LastSaved|ApplicationVersion", "KString", "", "", ""
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2094439055264, "c_flaregun_pyro_bg_shell_sm1_lod3", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 21
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Pose" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 7
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 7
+		PropertyTemplate: "FbxSkeleton" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "LimbLength", "double", "Number", "H",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Deformer" {
+		Count: 3
+	}
+	ObjectType: "Material" {
+		Count: 1
+		PropertyTemplate: "FbxSurfacePhong" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Phong"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+				P: "SpecularColor", "Color", "", "A",0.2,0.2,0.2
+				P: "SpecularFactor", "Number", "", "A",1
+				P: "ShininessExponent", "Number", "", "A",20
+				P: "ReflectionColor", "Color", "", "A",0,0,0
+				P: "ReflectionFactor", "Number", "", "A",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 2095796333088, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 2095796333280, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 2095796333664, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 2095796331744, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 2095796335008, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 2095796333472, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 2095625361280, "NodeAttribute::", "Null" {
+		Properties70:  {
+			P: "Look", "enum", "", "",0
+		}
+		TypeFlags: "Null"
+	}
+	Geometry: 2096933366480, "Geometry::renderMeshShape7", "Mesh" {
+		Vertices: *60 {
+			a: 1.22500455379486,1.35750710964203,-21.4739685058594,0.000114267924799042,2.58240389823914,-21.4739799499512,-1.22477805614472,1.35751855373383,-21.4739799499512,0.000102586280262172,0.132605537772179,-21.4739475250244,1.46751391887665,1.35749840736389,-26.8385791778564,0.00013796798884705,-0.109878122806549,-26.8385791778564,-1.46723580360413,1.35751223564148,-26.8385925292969,0.000140695381558547,2.82488894462585,-26.8385925292969,-1.46723580360413,1.35751223564148,-26.8385925292969,0.00013796798884705,-0.109878122806549,-26.8385791778564,-1.22477805614472,1.35751855373383,-21.4739799499512,0.000102586280262172,0.132605537772179,-21.4739475250244,0.000114267924799042,2.58240389823914,-21.4739799499512,0.000140695381558547,2.82488894462585,-26.8385925292969,1.46751391887665,1.35749840736389,-26.8385791778564,0.000140695381558547,2.82488894462585,-26.8385925292969,0.000114267924799042,2.58240389823914,-21.4739799499512,1.22500455379486,1.35750710964203,-21.4739685058594,0.00013796798884705,-0.109878122806549,-26.8385791778564,0.000102586280262172,0.132605537772179,-21.4739475250244
+		} 
+		PolygonVertexIndex: *36 {
+			a: 0,1,-3,0,2,-4,4,5,-7,4,6,-8,8,9,-11,10,9,-12,8,10,-13,8,12,-14,14,15,-17,14,16,-18,14,17,-19,18,17,-20
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			Normals: *60 {
+				a: 0.828381247972877,0.0223885962932336,0.559717123878587,-1.75002322092916e-017,0.835417042632341,0.549616561685902,-0.835417060637612,-8.25544319277456e-008,0.549616534317887,-0.0225131617792209,-0.810473719743829,0.585342213710325,-6.02368908443014e-017,-0.0161268712846556,-0.999869953555245,-6.02368908443014e-017,-0.0161268712846556,-0.999869953555245,-6.02368908443014e-017,-0.0161268712846556,-0.999869953555245,-6.02368908443014e-017,-0.0161268712846556,-0.999869953555245,-1,-6.12323399573677e-017,6.12323399573677e-017,-0.0161269354991661,-0.999869952519529,9.87489996955478e-019,-1,-6.12323399573677e-017,6.12323399573677e-017,-0.0161269354991661,-0.999869952519529,9.87489996955478e-019,-6.12323399573677e-017,1,3.74939945665464e-033,-6.12323399573677e-017,1,3.74939945665464e-033,0.99986995253406,6.05581298368824e-008,0.0161269345981206,-6.12323399573677e-017,1,3.74939945665464e-033,-6.12323399573677e-017,1,3.74939945665464e-033,0.99986995253406,6.05581298368824e-008,0.0161269345981206,-0.0161269354991661,-0.999869952519529,9.87489996955478e-019,-0.0161269354991661,-0.999869952519529,9.87489996955478e-019
+			} 
+			NormalsW: *20 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "map1"
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			UV: *40 {
+				a: 0.9833984375,-0.427978515625,0.8076171875,-0.255615234375,0.6318359375,-0.427978515625,0.8076171875,-0.60009765625,0.994140625,-0.8056640625,0.81396484375,-0.62646484375,0.6337890625,-0.8056640625,0.81396484375,-0.98486328125,0.294189453125,-0.2342529296875,0.0127944946289063,-0.2342529296875,0.294189453125,-0.98486328125,0.0127944946289063,-0.98486328125,0.61083984375,-0.98486328125,0.61083984375,-0.2342529296875,0.294189453125,-0.2342529296875,0.61083984375,-0.2342529296875,0.61083984375,-0.98486328125,0.294189453125,-0.98486328125,0.0127944946289063,-0.2342529296875,0.0127944946289063,-0.98486328125
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2096844767120, "Model::weapon_bone", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0.000276622661383367,-0.000276622661376635,-0.000276622661379859
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.00000000002331,1.00000000002331,1.00000000002331
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2096844759120, "Model::weapon_bone_2", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1.25122460303828e-006,2.17554879188538,8.32445526123047
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0.00526421529240422,1.43310513729013e-010,1.6161650679922e-010
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1.00000000422077,1.00000000422077
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2096844757120, "Model::weapon_bone_l", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2.70383316092193e-006,1.40449225902557,-24.0944786071777
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2096844769120, "Model::c_flaregun_pyro_reference", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,-90,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2096844763120, "Model::weapon_bone_3", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",8.56291080708615e-007,2.17357563972473,5.01219606399536
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2096844765120, "Model::weapon_bone_4", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",7.63470779929776e-007,3.77511310577393,2.63176703453064
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2096844741120, "Model::renderMesh7", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Pose: 2095625362160, "Pose::Bind", "BindPose" {
+		Type: "BindPose"
+		Version: 100
+		NbPoseNodes: 7
+		PoseNode:  {
+			Node: 2096844767120
+			Matrix: *16 {
+				a: 1,-4.82797622674541e-006,4.82797622674541e-006,0,4.82797622674541e-006,1,-4.82797622680664e-006,0,-4.82797622674541e-006,4.82797622680664e-006,1,0,0,0,0,1
+			} 
+		}
+		PoseNode:  {
+			Node: 2096844759120
+			Matrix: *16 {
+				a: 1,2.82074016921818e-012,-2.50124031729582e-012,0,-2.82097002007875e-012,1,-9.18778896448202e-005,0,2.50098097613616e-012,9.18778896448202e-005,1,0,1.25122460303828e-006,2.17554879188538,8.32445526123047,1
+			} 
+		}
+		PoseNode:  {
+			Node: 2096844757120
+			Matrix: *16 {
+				a: 1,0,0,0,0,1,0,0,0,0,1,0,-2.70383316092193e-006,1.40449225902557,-24.0944786071777,1
+			} 
+		}
+		PoseNode:  {
+			Node: 2096844769120
+			Matrix: *16 {
+				a: 6.12323399573677e-017,0,1,0,1,6.12323399573677e-017,-6.12323399573677e-017,0,-6.12323399573677e-017,1,3.74939945665464e-033,0,0,0,0,1
+			} 
+		}
+		PoseNode:  {
+			Node: 2096844763120
+			Matrix: *16 {
+				a: 1,0,0,0,0,1,0,0,0,0,1,0,8.56291080708615e-007,2.17357563972473,5.01219606399536,1
+			} 
+		}
+		PoseNode:  {
+			Node: 2096844765120
+			Matrix: *16 {
+				a: 1,0,0,0,0,1,0,0,0,0,1,0,7.63470779929776e-007,3.77511310577393,2.63176703453064,1
+			} 
+		}
+		PoseNode:  {
+			Node: 2096844741120
+			Matrix: *16 {
+				a: 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1
+			} 
+		}
+	}
+	Material: 2096933310656, "Material::materials/models/weapons/c_items/c_flaregun_shell.vmat", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "DiffuseFactor", "Number", "", "A",0.8
+			P: "TransparencyFactor", "Number", "", "A",1
+			P: "SpecularColor", "Color", "", "A",0.1,0.1,0.1
+			P: "ShininessExponent", "Number", "", "A",5
+			P: "FBX_vmatPath", "KString", "", "U", "materials/models/weapons/c_items/c_flaregun_shell.vmat"
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Specular", "Vector3D", "Vector", "",0.1,0.1,0.1
+			P: "Shininess", "double", "Number", "",5
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Deformer: 2095796334432, "Deformer::", "Skin" {
+		Version: 101
+		Link_DeformAcuracy: 50
+	}
+	Deformer: 2096847440928, "SubDeformer::", "Cluster" {
+		Version: 100
+		UserData: "", ""
+		Transform: *16 {
+			a: 0.999999999953381,4.82799953587478e-006,-4.82795291705335e-006,0,-4.82797622652034e-006,0.999999999953381,4.82799953593601e-006,0,4.82797622652034e-006,-4.82797622658157e-006,0.999999999953381,0,0,0,0,1
+		} 
+		TransformLink: *16 {
+			a: 1,-4.82797622674541e-006,4.82797622674541e-006,0,4.82799953609986e-006,1,-4.82797622680664e-006,0,-4.82795291727843e-006,4.82799953616109e-006,1,0,0,0,0,1
+		} 
+	}
+	Deformer: 2096847443184, "SubDeformer::", "Cluster" {
+		Version: 100
+		UserData: "", ""
+		Indexes: *20 {
+			a: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+		} 
+		Weights: *20 {
+			a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+		} 
+		Transform: *16 {
+			a: 0.999999999953381,4.82799953587478e-006,-4.82795291705335e-006,0,-4.82797622652034e-006,0.999999999953381,4.82799953593601e-006,0,4.82797622652034e-006,-4.82797622658157e-006,0.999999999953381,0,2.7038331609219e-006,-1.40449225902557,24.0944786071777,1
+		} 
+		TransformLink: *16 {
+			a: 1,-4.82797622674541e-006,4.82797622674541e-006,0,4.82799953609986e-006,1,-4.82797622680664e-006,0,-4.82795291727843e-006,4.82799953616109e-006,1,0,0.000120404063095936,1.40437593090709,-24.094485388046,1
+		} 
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::weapon_bone, Model::RootNode
+	C: "OO",2096844767120,0
+	
+	;Model::c_flaregun_pyro_reference, Model::RootNode
+	C: "OO",2096844769120,0
+	
+	;Model::renderMesh7, Model::RootNode
+	C: "OO",2096844741120,0
+	
+	;NodeAttribute::, Model::weapon_bone
+	C: "OO",2095796333088,2096844767120
+	
+	;Model::weapon_bone_2, Model::weapon_bone
+	C: "OO",2096844759120,2096844767120
+	
+	;Model::weapon_bone_l, Model::weapon_bone
+	C: "OO",2096844757120,2096844767120
+	
+	;Model::weapon_bone_3, Model::weapon_bone
+	C: "OO",2096844763120,2096844767120
+	
+	;Model::weapon_bone_4, Model::weapon_bone
+	C: "OO",2096844765120,2096844767120
+	
+	;NodeAttribute::, Model::weapon_bone_2
+	C: "OO",2095796333280,2096844759120
+	
+	;NodeAttribute::, Model::weapon_bone_l
+	C: "OO",2095796333664,2096844757120
+	
+	;NodeAttribute::, Model::c_flaregun_pyro_reference
+	C: "OO",2095796331744,2096844769120
+	
+	;NodeAttribute::, Model::weapon_bone_3
+	C: "OO",2095796335008,2096844763120
+	
+	;NodeAttribute::, Model::weapon_bone_4
+	C: "OO",2095796333472,2096844765120
+	
+	;Geometry::renderMeshShape7, Model::renderMesh7
+	C: "OO",2096933366480,2096844741120
+	
+	;Material::materials/models/weapons/c_items/c_flaregun_shell.vmat, Model::renderMesh7
+	C: "OO",2096933310656,2096844741120
+	
+	;Deformer::, Geometry::renderMeshShape7
+	C: "OO",2095796334432,2096933366480
+	
+	;SubDeformer::, Deformer::
+	C: "OO",2096847440928,2095796334432
+	
+	;SubDeformer::, Deformer::
+	C: "OO",2096847443184,2095796334432
+	
+	;Model::weapon_bone, SubDeformer::
+	C: "OO",2096844767120,2096847440928
+	
+	;Model::weapon_bone_l, SubDeformer::
+	C: "OO",2096844757120,2096847443184
+}

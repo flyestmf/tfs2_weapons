@@ -35,8 +35,8 @@
     },
     "tfs2/1.0.0": {
       "type": "project",
-      "path": "../../tfs2/code/tfs2.csproj",
-      "msbuildProject": "../../tfs2/code/tfs2.csproj"
+      "path": "../../TF-Source-2/code/tfs2.csproj",
+      "msbuildProject": "../../TF-Source-2/code/tfs2.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -71,8 +71,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj": {
-              "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\tfs2\\code\\tfs2.csproj"
+            "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj": {
+              "projectPath": "C:\\Users\\yourbadandimbest\\Documents\\S&box Projects\\TF-Source-2\\code\\tfs2.csproj"
             }
           }
         }

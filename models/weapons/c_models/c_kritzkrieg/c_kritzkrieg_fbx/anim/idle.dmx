@@ -7,8 +7,8 @@
 "DmElement"
 {
 	"name" "string" "root"
-	"model" "element" "0943c448-3838-448e-9b69-dbc3a7e375bb"
-	"skeleton" "element" "0943c448-3838-448e-9b69-dbc3a7e375bb"
+	"model" "element" "75ca4f83-68de-4f2e-99f3-3545b9ae10a2"
+	"skeleton" "element" "75ca4f83-68de-4f2e-99f3-3545b9ae10a2"
 	"makefile" "DmeDCCMakefile"
 	{
 		"name" "string" "makefile"
@@ -26,7 +26,7 @@
 		"machine" "string" ""
 		"app" "string" ""
 		"appVersion" "string" ""
-		"vmdl" "string" "models/weapons/c_models/c_overhealer/c_overhealer.vmdl"
+		"vmdl" "string" "models/weapons/c_models/c_overhealer/c_kritzkrieg.vmdl"
 	}
 	
 	"animationList" "DmeAnimationList"
@@ -60,7 +60,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "e80a5fcd-9f1d-48c1-94f8-df866c6bb049"
+						"toElement" "element" "1bbb74b8-91a0-4110-8b36-af0712cbe2dd"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -110,7 +110,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "e80a5fcd-9f1d-48c1-94f8-df866c6bb049"
+						"toElement" "element" "1bbb74b8-91a0-4110-8b36-af0712cbe2dd"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -160,7 +160,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "e411d896-fef8-43ff-b6ca-ff60eaab60f4"
+						"toElement" "element" "a5544d90-6e6c-48ed-807e-8aa61a3bd2f6"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -210,7 +210,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "e411d896-fef8-43ff-b6ca-ff60eaab60f4"
+						"toElement" "element" "a5544d90-6e6c-48ed-807e-8aa61a3bd2f6"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -260,7 +260,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "567a3064-acac-4b36-957a-f945bda6b89e"
+						"toElement" "element" "90ac762d-d8d7-4169-ab18-f3b5ffda2a0e"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -310,7 +310,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "567a3064-acac-4b36-957a-f945bda6b89e"
+						"toElement" "element" "90ac762d-d8d7-4169-ab18-f3b5ffda2a0e"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -360,7 +360,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "ab1c12e0-c78f-46d0-9e58-0c7d52080f64"
+						"toElement" "element" "f3614e69-3bc5-48aa-b4d7-a5621d60f847"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -410,7 +410,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "ab1c12e0-c78f-46d0-9e58-0c7d52080f64"
+						"toElement" "element" "f3614e69-3bc5-48aa-b4d7-a5621d60f847"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -460,7 +460,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "00a8cb8c-0499-44b2-a7cc-1e04e8aa90b2"
+						"toElement" "element" "5d53024d-7955-408b-83e9-5718a3a5ce23"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -510,7 +510,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "00a8cb8c-0499-44b2-a7cc-1e04e8aa90b2"
+						"toElement" "element" "5d53024d-7955-408b-83e9-5718a3a5ce23"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -560,7 +560,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "2189b968-68f0-437d-82db-cad81ae5c6df"
+						"toElement" "element" "ecf6aeb1-df40-488a-b0c9-4b415af78e5e"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -610,7 +610,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "2189b968-68f0-437d-82db-cad81ae5c6df"
+						"toElement" "element" "ecf6aeb1-df40-488a-b0c9-4b415af78e5e"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -660,7 +660,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "c35247ec-4321-41ab-bb73-f8e55e426bc3"
+						"toElement" "element" "1d7b69c1-45d2-421b-9f78-26a7f166e23f"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -710,7 +710,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "c35247ec-4321-41ab-bb73-f8e55e426bc3"
+						"toElement" "element" "1d7b69c1-45d2-421b-9f78-26a7f166e23f"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -760,7 +760,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "73db0029-1b0e-4d4c-bc8c-5963d85a6179"
+						"toElement" "element" "b98b2564-88cd-442c-889f-7d930b1dfb69"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -810,7 +810,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "73db0029-1b0e-4d4c-bc8c-5963d85a6179"
+						"toElement" "element" "b98b2564-88cd-442c-889f-7d930b1dfb69"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -860,7 +860,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "311886a6-7dbe-4b32-ba69-c5d9f1a27298"
+						"toElement" "element" "64231543-4cb0-437b-b6e8-36c117213289"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -910,7 +910,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "311886a6-7dbe-4b32-ba69-c5d9f1a27298"
+						"toElement" "element" "64231543-4cb0-437b-b6e8-36c117213289"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -960,7 +960,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "6173083d-5234-46a8-b1ad-c3547bff62ee"
+						"toElement" "element" "ee1adad2-bd2d-49df-b7e1-db350c7ed4ec"
 						"toAttribute" "string" "position"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -1010,7 +1010,7 @@
 						"fromElement" "element" ""
 						"fromAttribute" "string" ""
 						"fromIndex" "int" "0"
-						"toElement" "element" "6173083d-5234-46a8-b1ad-c3547bff62ee"
+						"toElement" "element" "ee1adad2-bd2d-49df-b7e1-db350c7ed4ec"
 						"toAttribute" "string" "orientation"
 						"toIndex" "int" "0"
 						"mode" "int" "3"
@@ -1066,78 +1066,78 @@
 
 "DmeTransform"
 {
-	"id" "elementid" "e80a5fcd-9f1d-48c1-94f8-df866c6bb049"
+	"id" "elementid" "1bbb74b8-91a0-4110-8b36-af0712cbe2dd"
 	"position" "vector3" "0 0 0"
 	"orientation" "quaternion" "-0.000002414 -0.0000024358 -0.0000024358 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "e411d896-fef8-43ff-b6ca-ff60eaab60f4"
+	"id" "elementid" "a5544d90-6e6c-48ed-807e-8aa61a3bd2f6"
 	"position" "vector3" "0 0 0"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "567a3064-acac-4b36-957a-f945bda6b89e"
+	"id" "elementid" "90ac762d-d8d7-4169-ab18-f3b5ffda2a0e"
 	"position" "vector3" "0 -0.9019600153 -5.9387879372"
 	"orientation" "quaternion" "-0.0024538338 0.7071024179 -0.0024566054 0.7071025372"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "ab1c12e0-c78f-46d0-9e58-0c7d52080f64"
+	"id" "elementid" "f3614e69-3bc5-48aa-b4d7-a5621d60f847"
 	"position" "vector3" "6.002579689 0.000000298 0.0000004522"
 	"orientation" "quaternion" "-0.0000012516 -0.0000000109 -0.0000737903 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "00a8cb8c-0499-44b2-a7cc-1e04e8aa90b2"
+	"id" "elementid" "5d53024d-7955-408b-83e9-5718a3a5ce23"
 	"position" "vector3" "7.9543094635 -0.0000008345 0.000000476"
 	"orientation" "quaternion" "0.0000001191 -0.0000000075 0.0035459711 0.9999938011"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "2189b968-68f0-437d-82db-cad81ae5c6df"
+	"id" "elementid" "ecf6aeb1-df40-488a-b0c9-4b415af78e5e"
 	"position" "vector3" "6.6922225952 -0.0000001192 0.0000003296"
 	"orientation" "quaternion" "-0 0 -0.0000000003 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "c35247ec-4321-41ab-bb73-f8e55e426bc3"
+	"id" "elementid" "1d7b69c1-45d2-421b-9f78-26a7f166e23f"
 	"position" "vector3" "7.9283828735 0 0.0000003685"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "73db0029-1b0e-4d4c-bc8c-5963d85a6179"
+	"id" "elementid" "b98b2564-88cd-442c-889f-7d930b1dfb69"
 	"position" "vector3" "0 -0.9348649979 4.492331028"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "311886a6-7dbe-4b32-ba69-c5d9f1a27298"
+	"id" "elementid" "64231543-4cb0-437b-b6e8-36c117213289"
 	"position" "vector3" "0 0 0"
 	"orientation" "quaternion" "0 0 0 1"
 }
 
 "DmeTransform"
 {
-	"id" "elementid" "6173083d-5234-46a8-b1ad-c3547bff62ee"
+	"id" "elementid" "ee1adad2-bd2d-49df-b7e1-db350c7ed4ec"
 	"position" "vector3" "3.1283588409 -0.8820880055 18.9288520813"
 	"orientation" "quaternion" "-0.7077487707 0.030667983 -0.0121478857 0.7056936622"
 }
 
 "DmeModel"
 {
-	"id" "elementid" "0943c448-3838-448e-9b69-dbc3a7e375bb"
-	"name" "string" "c_overhealer"
+	"id" "elementid" "75ca4f83-68de-4f2e-99f3-3545b9ae10a2"
+	"name" "string" "c_kritzkrieg"
 	"transform" "DmeTransform"
 	{
 		"position" "vector3" "0 0 0"
@@ -1151,7 +1151,7 @@
 		"DmeJoint"
 		{
 			"name" "string" "weapon_bone_l"
-			"transform" "element" "e80a5fcd-9f1d-48c1-94f8-df866c6bb049"
+			"transform" "element" "1bbb74b8-91a0-4110-8b36-af0712cbe2dd"
 			"shape" "element" ""
 			"visible" "bool" "1"
 			"children" "element_array" 
@@ -1159,7 +1159,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "weapon_bone"
-					"transform" "element" "e411d896-fef8-43ff-b6ca-ff60eaab60f4"
+					"transform" "element" "a5544d90-6e6c-48ed-807e-8aa61a3bd2f6"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -1169,7 +1169,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "joint_hose01"
-					"transform" "element" "567a3064-acac-4b36-957a-f945bda6b89e"
+					"transform" "element" "90ac762d-d8d7-4169-ab18-f3b5ffda2a0e"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -1177,7 +1177,7 @@
 						"DmeJoint"
 						{
 							"name" "string" "joint_hose02"
-							"transform" "element" "ab1c12e0-c78f-46d0-9e58-0c7d52080f64"
+							"transform" "element" "f3614e69-3bc5-48aa-b4d7-a5621d60f847"
 							"shape" "element" ""
 							"visible" "bool" "1"
 							"children" "element_array" 
@@ -1185,7 +1185,7 @@
 								"DmeJoint"
 								{
 									"name" "string" "joint_hose03"
-									"transform" "element" "00a8cb8c-0499-44b2-a7cc-1e04e8aa90b2"
+									"transform" "element" "5d53024d-7955-408b-83e9-5718a3a5ce23"
 									"shape" "element" ""
 									"visible" "bool" "1"
 									"children" "element_array" 
@@ -1193,7 +1193,7 @@
 										"DmeJoint"
 										{
 											"name" "string" "joint_hose04"
-											"transform" "element" "2189b968-68f0-437d-82db-cad81ae5c6df"
+											"transform" "element" "ecf6aeb1-df40-488a-b0c9-4b415af78e5e"
 											"shape" "element" ""
 											"visible" "bool" "1"
 											"children" "element_array" 
@@ -1201,7 +1201,7 @@
 												"DmeJoint"
 												{
 													"name" "string" "joint_hose05"
-													"transform" "element" "c35247ec-4321-41ab-bb73-f8e55e426bc3"
+													"transform" "element" "1d7b69c1-45d2-421b-9f78-26a7f166e23f"
 													"shape" "element" ""
 													"visible" "bool" "1"
 													"children" "element_array" 
@@ -1219,7 +1219,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "joint_lever"
-					"transform" "element" "73db0029-1b0e-4d4c-bc8c-5963d85a6179"
+					"transform" "element" "b98b2564-88cd-442c-889f-7d930b1dfb69"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
@@ -1227,7 +1227,7 @@
 						"DmeJoint"
 						{
 							"name" "string" "vm_weapon_bone_l"
-							"transform" "element" "311886a6-7dbe-4b32-ba69-c5d9f1a27298"
+							"transform" "element" "64231543-4cb0-437b-b6e8-36c117213289"
 							"shape" "element" ""
 							"visible" "bool" "1"
 							"children" "element_array" 
@@ -1239,7 +1239,7 @@
 				"DmeJoint"
 				{
 					"name" "string" "c_weapon_stattrack"
-					"transform" "element" "6173083d-5234-46a8-b1ad-c3547bff62ee"
+					"transform" "element" "ee1adad2-bd2d-49df-b7e1-db350c7ed4ec"
 					"shape" "element" ""
 					"visible" "bool" "1"
 					"children" "element_array" 
