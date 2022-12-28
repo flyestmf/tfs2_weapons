@@ -4,10 +4,14 @@ Layer0
 {
 	shader "shaders/complex.shader"
 
+	//---- PBR ----
+	F_METALNESS_TEXTURE 1
+	F_SPECULAR 1
+
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureAmbientOcclusion "materials/models/weapons/c_models/c_ambassador/c_ambassador_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
@@ -25,7 +29,7 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	TextureMetalness "materials/models/weapons/c_models/c_ambassador/c_ambassador_metal.png"
 
 	//---- Normal ----
 	TextureNormal "materials/models/weapons/c_models/c_ambassador/c_ambassador_normal.tga"
