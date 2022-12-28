@@ -265,6 +265,17 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "bite"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/c_models/c_sandvich/c_sandvich.vmat"
+								to = "materials/models/weapons/c_models/c_sandvich/c_sandvich_bite.vmat"
+							},
+						]
+					},
 				]
 			},
 			{

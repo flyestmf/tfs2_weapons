@@ -62,7 +62,7 @@
 							},
 							{
 								from = "materials/models/weapons/c_models/c_kritzkrieg/c_kritzkrieg.vmat"
-								to = "materials/models/weapons/c_models/c_kritzkrieg/c_kritzkrieg_blue.vmat"
+								to = "materials/models/weapons/c_models/c_kritzkrieg/c_kritzkrieg.vmat"
 							},
 						]
 					},

@@ -7,7 +7,7 @@ Layer0
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureAmbientOcclusion "materials/models/weapons/c_models/c_sandvich/c_sandwich_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
